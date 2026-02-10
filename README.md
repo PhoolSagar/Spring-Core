@@ -18,7 +18,7 @@ The project focuses on understanding core concepts using simple and clean Java c
 - Bean Lifecycle
 - XML and Annotation based configuration
 - Spring Core basic annotations
-- Practice examples (9 files)
+- Practice examples (14 files)
 
 ---
 
