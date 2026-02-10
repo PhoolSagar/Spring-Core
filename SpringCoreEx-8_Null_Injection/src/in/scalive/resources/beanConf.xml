@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+		<!-- bean definitions here -->
+		
+		<bean class="java.util.Date" id = "db">
+			<property name = "date" value = "4"/>
+			<property name = "month" value = "3"/>
+			<property name = "year" value = "104"/>
+		</bean>
+		
+		<bean class="in.scalive.beans.Student" id = "st1">
+			<constructor-arg value = "Phoolsagar Singh"/>
+			<constructor-arg value = "39"/>
+			<constructor-arg ref = "db"/>
+		</bean>
+		
+		<bean class="in.scalive.beans.Student" id = "st2">
+			<constructor-arg value = "Manu"/>
+			<constructor-arg value = "24"/>
+			<constructor-arg ><null/> </constructor-arg>
+		</bean>
+		
+		
+
+</beans>
