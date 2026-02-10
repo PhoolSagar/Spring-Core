@@ -24,9 +24,10 @@ The project focuses on understanding core concepts using simple and clean Java c
 
 ## 🛠 Tech Stack
 
-- Java (JDK 8+)
+- Java (JDK 21)
 - Spring Core
 - Maven
+- Spring stater Project
 - STS (Spring Tool Suite)
 
 ---
